@@ -1,0 +1,13 @@
+\section{Conclusiones}%
+\label{sec:conclusiones}
+\begin{itemize}
+    \item El sincronismo de fase es necesario para mantener la estabilidad espectral de la modulación en la región de banda base
+    \item El filtrado pasa bajas en la demodulación nos permite recuperar la señal en banda base, sin embargo, la frecuencia de modulación debe ser lo suficientemente grande para que las componentes espectrales de la modulación no entren en el rango del ancho de banda del filtro
+    \item Cuando se tiene de-sincronismo cruzado de fase y frecuencia, la componente de banda base de la señal vuelve a aparecer súbitamente (teniendo valores de desfase de 90 grados) aun con pequeñas variaciones en la frecuencia del demodulador.
+    \item En el de sincronismo de fase, las componentes de frecuencia cercanas a banda base disminuyen proporcionalmente en el rango de 0 a 90 grados, a partir de este valor, vuelve a incrementar, sin embargo, la señal ahora tiene una polaridad invertida.
+    \item Como la señal no es periódica (y toda su información está en banda base) métodos de análisis de distorsión como la distorsión armónica total no son aplicables.
+    \item El umbral a partir del cual la distorsión de la señal aumenta de forma drástica es independiente de la frecuencia de modulación (siempre y cuando esta frecuencia supere el ancho de banda del filtro pasa bajo del receptor) y depende del periodo de la señal.
+    \item El de sincronismo de frecuencia es similar a tener múltiples de sincronismos de fase variando a lo largo de distintos instantes de tiempo. Es por esto por lo que la señal demodulada es muy sensible a los cambios de frecuencia. Sin embargo, se puede evidenciar en las gráficas que es posible recuperar la señal original, ya que la misma aparece como envolvente de una onda senoidal de frecuencia equivalente al de sincronismo en frecuencia.
+    \item El rango de sincronismo en frecuencia en el cual sería posible recuperar la señal a partir de la envolvente de la señal demodulada, sería igual al ancho de banda del filtro pasa bajos del receptor, ya que, si el de sincronismo es más grande, la información contenida en el espectro "desfasado en frecuencia" simplemente seria eliminada por este filtro.
+    \item Para el caso del de sincronismo de fase, un rectificador de onda completa se propondría como una posible solución para recuperar la onda atenuada por el desfase de la onda demoduladora.
+\end{itemize}

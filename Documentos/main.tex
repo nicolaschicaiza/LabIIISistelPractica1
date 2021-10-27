@@ -1,0 +1,40 @@
+%Preamble
+%!TeX TXS-program:compile = txs:///pdflatex/[--shell-escape]
+\documentclass[11pt,letterpaper,twocolumn]{article}
+\input{codigofuente/preambulo}
+%\brokenpenalty=10000 
+%\hyphenpenalty=5000 
+\raggedbottom
+%---------------------------------------------
+% Titulo, autores e información afiliada a los autores
+\title{
+	\fontsize{22}{22}\selectfont
+	\vspace{-9mm}
+	\textbf{Modulaciones Lineales
+		\vspace{-1mm}}}
+\author[1]{Jefry Nicolás Chicaiza}
+\author[2]{Jose Nicolás Zambrano}
+\affil[1]{\url{jefryn@unicauca.edu.co}
+	\vspace{-2mm}}
+\affil[2]{\url{jnzambranob@unicauca.edu.co}
+	\vspace{-5mm}}
+\date{}
+%---------------------------------------------
+% vincular archivo de bibliografías
+\bibliography{codigofuente/bibliografia}
+%---------------------------------------------
+% cuerpo del documento
+\begin{document}
+%---------------------------------------------
+% retornar configuraciones realizadas en preámbulo al cuerpo del documento
+\maketitle
+\thispagestyle{fancy}
+%---------------------------------------------
+% \input{codigofuente/introduccion}
+% \input{codigofuente/metodologia}
+% \input{codigofuente/analisisResultado}
+% \input{codigofuente/conclusiones}
+% \input{codigofuente/apendice}
+\printbibliography[title={Bibliografía}]
+\end{document}
+%---------------------------------------------

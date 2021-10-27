@@ -1,0 +1,49 @@
+\begin{figure}[h]
+	\centering
+	\begin{tikzpicture}[circuit ee IEC]
+		% Mixer
+		\node[draw,
+			circle,
+			minimum size=0.6cm,
+		] (mix) at (0,0){};
+
+		\draw (mix.north east) -- (mix.south west)
+		(mix.north west) -- (mix.south east);
+
+		\draw (mix.north east) -- (mix.south west)
+		(mix.north west) -- (mix.south east);
+
+		% Amp 
+		\node[draw,
+			isosceles triangle,
+			isosceles triangle apex angle=60,
+			right=1cm of mix
+		]   (amp) {$A_c$};
+
+		% Local Oscillator
+		\node [draw,
+			ac source,
+			minimum size=0.6cm,
+			label=below:$cos(2\pi f_c t)$,
+			label=left:LO
+			%below right= 1cm and -1.19cm of mix
+		]  (lo) at (0,-1.5) {};
+
+		% Arrows with text label 
+		\draw[-stealth] (mix.east) -- (amp.west)
+		node[midway,above]{};
+
+		\draw[-stealth] (amp.east) -- ++ (1.25,0)
+		node[midway](output){}node[right]{$x(t)$};
+
+		\draw[stealth-] (mix.south) -- (lo.north)
+		node[below,right] {};
+
+		\draw[stealth-] (mix.west) -- ++(-1,0)
+		node[left]{$u(t)$};
+	\end{tikzpicture}
+	\vspace{-3mm}
+	\caption{\scriptsize Diagrama de bloques del modulador BSD-SC.}
+	\vspace{-6mm}
+	\label{fig:DBmodulador}
+\end{figure}

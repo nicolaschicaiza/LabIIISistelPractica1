@@ -1,0 +1,80 @@
+%% Creator: Inkscape 1.1 (ce6663b3b7, 2021-05-25), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'ErroresFrecuencia.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{741.20908151bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.61935768)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{img/ErroresFrecuencia/ErroresFrecuencia.pdf}}%
+    \put(0.03281739,0.14331988){\color[rgb]{0.34901961,0.34901961,0.34901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-\end{tabular}}}}%
+    \put(0.0400016,0.14331988){\color[rgb]{0.34901961,0.34901961,0.34901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0,2\end{tabular}}}}%
+    \put(0.05743932,0.18770682){\color[rgb]{0.34901961,0.34901961,0.34901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0\end{tabular}}}}%
+    \put(0.03996787,0.23208026){\color[rgb]{0.34901961,0.34901961,0.34901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0,2\end{tabular}}}}%
+    \put(0.03996787,0.27650767){\color[rgb]{0.34901961,0.34901961,0.34901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0,4\end{tabular}}}}%
+    \put(0.03996787,0.3208946){\color[rgb]{0.34901961,0.34901961,0.34901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0,6\end{tabular}}}}%
+    \put(0.03996787,0.36528154){\color[rgb]{0.34901961,0.34901961,0.34901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0,8\end{tabular}}}}%
+    \put(0.05743932,0.40966847){\color[rgb]{0.34901961,0.34901961,0.34901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1\end{tabular}}}}%
+    \put(0.03996787,0.45405541){\color[rgb]{0.34901961,0.34901961,0.34901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1,2\end{tabular}}}}%
+    \put(0.03996787,0.49844234){\color[rgb]{0.34901961,0.34901961,0.34901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1,4\end{tabular}}}}%
+    \put(0.03996787,0.54286975){\color[rgb]{0.34901961,0.34901961,0.34901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1,6\end{tabular}}}}%
+    \put(0.03996787,0.58725669){\color[rgb]{0.34901961,0.34901961,0.34901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1,8\end{tabular}}}}%
+    \put(0.44214183,0.03733764){\color[rgb]{0.34901961,0.34901961,0.34901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Frecuencia (Hz)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{img/ErroresFrecuencia/ErroresFrecuencia.pdf}}%
+    \put(0.76159285,0.56853053){\color[rgb]{0.34901961,0.34901961,0.34901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}MSE Input\end{tabular}}}}%
+    \put(0.8587719,0.56853053){\color[rgb]{0.34901961,0.34901961,0.34901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-\end{tabular}}}}%
+    \put(0.86597635,0.56853053){\color[rgb]{0.34901961,0.34901961,0.34901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Output\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{img/ErroresFrecuencia/ErroresFrecuencia.pdf}}%
+    \put(0.76159285,0.53884929){\color[rgb]{0.34901961,0.34901961,0.34901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Energia Salida AC=2\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{img/ErroresFrecuencia/ErroresFrecuencia.pdf}}%
+    \put(0.76159285,0.50920854){\color[rgb]{0.34901961,0.34901961,0.34901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Energia Entrada\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{img/ErroresFrecuencia/ErroresFrecuencia.pdf}}%
+  \end{picture}%
+\endgroup%

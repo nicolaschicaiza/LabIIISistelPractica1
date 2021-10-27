@@ -1,0 +1,119 @@
+\section{Metodología}%
+\label{sec:metodologia}
+
+Antes de iniciar con el desarrollo del algoritmo para la simulación de los conceptos teóricos sobre la señal, se realizaron investigaciones sobre el tema de interés para entender, adoptar y suponer los efectos de la modulación lineal DSBSC en las señales de comunicaciones. La modulación DSBSC es un esquema de transmisión de onda de amplitud modulada en el que solo se transmiten las bandas laterales y la portadora no se transmite a medida que se suprime, la portadora no contiene ninguna información y su transmisión da como resultado una pérdida de energía. Por lo tanto, solo se transmiten las bandas laterales que contienen información~\cite{coach_double_nodate}, la señal modulada ya no tendrá una envolvente proporcional al mensaje, sino al valor absoluto del mensaje.
+
+Esta modulación es generada por un mezclador o modulador de producto, el diagrama de bloques que representa la secuencia lógica del proceso de modulación se observa en la figura~\ref{fig:DBmodulador}.
+
+\input{codigofuente/pgf/DB_modulador}
+
+Lo que lleva a suponer que al modular la señal de interés por la señal portadora se obtendrá una señal modulada de comportamiento sinusoidal con la frecuencia de portadora $f_c$ y su amplitud acompañada por las variaciones de la señal moduladora. Como la envolvente es el resultado de la multiplicación, su polaridad $A_c$ coincide con la regla de los signos del producto, es decir, que la conserva en cada ciclo de más a menos de la portadora cuando la señal moduladora es positiva y se invierte cuando es negativa, de ahí que se produce una inversión de fase de $180^\circ$ en cada cruce por cero \cite{SuarezVargas2012}.
+
+\vspace{-2mm}
+\begin{figure}[H]
+	\centering
+	\def\svgwidth{5cm}
+	\tiny{
+		\input{img/mezclado_comp/mezclado_comp.pdf_tex}
+	}
+	\vspace{-3mm}
+	\caption{\scriptsize Señal modulada en el dominio del tiempo con amplitud $A_c=4$.}
+	\label{fig:modulacion}
+\end{figure}
+\vspace{-4mm}
+
+La señal modulada esta dada por la siguiente expresión:
+
+\vspace{-2mm}
+\begin{equation*}
+	x(t)=Au(t)cos(2\pi f_ct)
+\end{equation*}
+\vspace{-4mm}
+
+Al realizar la respuesta en frecuencia de la señal modulada la expresión que representa su espectro es la siguiente:
+
+\vspace{-2mm}
+\begin{equation*}
+	X(f)=\frac{A}{2} [U(f-f_c)+U(f+f_c)]
+\end{equation*}
+\vspace{-4mm}
+
+De la cual se puede deducir que presenta dos componentes desplazas, una en las frecuencias del espectro negativas y la otra en las positivas, además la amplitud de estas componentes es el valor de la amplitud de polarización partida por dos. Este efecto de obtener dos componentes en frecuencia en la modulación DSBSC es la razón por la que también se le denomina Modulador Balanceado, e introduce menos ruido debido a que la señal portadora ha sido eliminada~\cite{Zambrano2021}.
+
+\begin{figure}[h]
+	\centering
+	\def\svgwidth{5cm}
+	\tiny{
+		\input{img/respuesta_frec/respuesta_frec.pdf_tex}
+	}
+	\vspace{-3mm}
+	\caption{\scriptsize Espectro en frecuencia de la modulación DSBSC con $f_c=3$.}
+	\vspace{-6mm}
+	\label{fig:respuesta_frec}
+\end{figure}
+
+Una vez modulada la señal y transmitida por algún medio, es necesario realizar la operación inversa con el fin de trasladar la banda centrada en $f_c$, a la banda original centrada en cero. A este proceso de le conoce con el nombre de demodulación y su esquema general del proceso se muestra en la figura~\ref{fig:DBdemodulador}.
+
+\vspace{-3mm}
+\input{codigofuente/pgf/DB_demodulador}
+
+La modulación coherente o detección síncrona como se le conoce a la demodulación de DSBSC es un método de demodulación que usa el mismo esquema del método de modulación. Es decir, la señal modulada $x(t)$ se multiplica por el término portador $cos(2\pi f_ct)$ y posteriormente se pasa por un filtro pasa bajas~\cite{TelloPortillo2017}, las expresiones para dicho proceso tienen la forma:
+
+\vspace{-2mm}
+\begin{equation*}
+	S(f)=\frac{A}{2}U(f)+\frac{A}{4}[U(f-2f_c)+U(f+2f_c)]
+\end{equation*}
+
+Este nuevo termino representa la señal recuperada al remodular las componentes laterales, sin embargo como sucedió en el lado del transmisor su modulación genero dos nuevas componentes, esto sucede de igual manera en el receptor como se observa en la figura \ref{fig:remodulacion}. Por lo tanto, es necesario y obligatorio para obtener la señal del mensaje, filtrar en banda base para eliminar las componentes espurias presentes en el espectro de frecuencia.
+
+\vspace{-2mm}
+\begin{equation*}
+	u'(t)=[u(t)\times cos(2\pi f_ct)]*h(t)
+\end{equation*}
+
+\begin{figure}[h]
+	\centering
+	\def\svgwidth{5cm}
+	\tiny{
+		\input{img/mezclado_demo/mezclado_demo.pdf_tex}
+	}
+	\vspace{-3mm}
+	\caption{\scriptsize Remodulación del espectro de frecuencia de la señal modulada.}
+	\vspace{-6mm}
+	\label{fig:remodulacion}
+\end{figure}
+
+Después de este proceso de demodulación, se obtiene la reconstrucción perfecta de la señal mensaje transmitida. Sin embargo, la modulación DSB en comparación a otros modelos de modulación de amplitud presenta una complejidad en el momento de implementar, el receptor necesita generar localmente una onda sinusoidal sintonizada a la misma frecuencia y fase que la usada en el transmisor, lo que implica una precisión de circuitería que puede llegar a ser muy costosa y difícil de obtener. Por esto es necesario el uso de una etapa conocida como recuperación de sincronismo~\cite{Ramirez2020}.
+
+\vspace{-2mm}
+\begin{equation*}
+	LO=cos[2\pi(f_c+\delta f)t+\varphi]
+\end{equation*}
+\vspace{-4mm}
+
+La ecuación anterior hace referencia al efecto de los errores de sincronismo, donde la portadora tiene una diferencia de frecuencia $\delta f$ y una diferencia de fase $\varphi$. Si $\delta f$ y $\varphi$ son ambos iguales a cero es porque no hay error en la frecuencia ni en la fase y es evidente que se recupera el mensaje.
+
+Se consideran dos casos, cuando el valor de la diferencia de frecuencia es $\delta f=0$, la salida del sistema es proporcional a la señal mensaje, y será máxima cuando $\varphi=0$ y nula cuando $\varphi =\pm \pi /2$. Este error en fase ocasiona atenuación de la señal pero no distorsión, siempre y cuando la variable se mantenga constante; el segundo caso se considera $\varphi =0$ pero $\delta f\neq 0$, la salida no es meramente atenuada sino que resulta distorsionada porque dado que $\delta f$ es de baja frecuencia la multiplicación por este tipo de señal produce un fenómeno que se conoce como ``efecto de batido'' y donde cada componente se desplaza en $+ \delta f$ y en $- \delta f$~\cite{SuarezVargas2012}.
+
+El desarrollo de las comprobaciones que se quiere realizar en este documento se evalúan por medio de las simulaciones del algoritmo hecho en MATLAB, por lo que se plantean ciertos objetivos para tener claridad de la ruta que deben seguir los escenarios. Estos escenarios deben permitir observar lo que le ocurre a la señal al introducir los diferentes erres de sincronismo en la señal portadora del demodulador coherente. Para cada uno de ellos se realiza su correspondiente análisis y la comprobación de la hipótesis que plantea este documento.
+
+\begin{enumerate}
+	\item Análisis de resultados sin introducir errores de sincronismo
+	\item Análisis de introducir errores de sincronismo en frecuencia.
+	\item Análisis de introducir errores de sincronismo en fase
+\end{enumerate}
+
+\subsection{Plan de pruebas}
+En cada escenario se evalúa el valor estimado de energía de la señal recuperada respecto a la señal original, para así comprender el comportamiento de los resultados al aplicar estos efectos. Los escenarios que se realizan para cumplir con los objetivos de la simulación siguen el plan de pruebas presentado a continuación:
+
+\vspace{-3mm}
+\begin{figure}[h]
+	\centering
+	\scriptsize{
+		\input{codigofuente/pgf/PlanPruebas}
+	}
+	\vspace{-2mm}
+	\caption{\scriptsize Plan de pruebas para satisfacer objetivos.}
+	\vspace{-6mm}
+	\label{fig:planpruebas}
+\end{figure}

@@ -1,0 +1,12 @@
+TY  - BOOK
+ID  - 70025
+T1  - Introduccion a las senales y sistemas
+A1  - Tello Portillo,Juan Pablo
+Y1  - 2017
+N2  - El proposito de este libro es brindar los conceptos fundamentales de las senales y los sistemas, todos ellos acompanados de la descripcion matematica que los sustenta y apoyado de algunas representaciones graficas necesarias para dar claridad a lo tratado. El libro comprende cinco capitulos. En el primero se exponen las definiciones de las senales y los sistemas y su respectiva clasificacion. Asi mismo, se desarrollan operaciones de transformacion de senales tanto en el dominio del tiempo continuo como en el dominio del tiempo discreto. En el segundo capitulo se profundiza en los sistemas lineales e invariantes en el tiempo (LIT) y la operacion que conlleva a la interaccion de las senales con la respuesta al impulso del sistema. En el tercer capitulo se introduce los metodos de analisis de senales en series de Fourier, que, junto con la transformada de Fourier (desarrollada en el cuarto capitulo), proporcionan una valiosa perspectiva de analisis de las senales y los sistemas en el dominio de la frecuencia. Por ultimo se realiza una introduccion a la transformada de Laplace enfocada al estudio de la estabilidad de los sistemas, para culminar con el desarrollo de diagrama de bloques para sistemas LIT descritos por ecuaciones diferenciales. Adicionalmente, se presenta una variedad de ejemplos con la finalidad de dar mayor claridad a cada uno de los temas abordados.
+PB  - Universidad del Norte
+SN  - 9789587418040
+SP  - 181
+LA  - es
+UR  - https://elibro.net/es/lc/unicauca/titulos/70025
+ER  - 

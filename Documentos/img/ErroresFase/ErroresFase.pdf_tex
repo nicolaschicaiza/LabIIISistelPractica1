@@ -1,0 +1,78 @@
+%% Creator: Inkscape 1.1 (ce6663b3b7, 2021-05-25), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'ErroresFase.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{741.30648153bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.54810696)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{img/ErroresFase/ErroresFase.pdf}}%
+    \put(0.02101998,0.12612867){\color[rgb]{0.34901961,0.34901961,0.34901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-0,2\end{tabular}}}}%
+    \put(0.0438513,0.16578837){\color[rgb]{0.34901961,0.34901961,0.34901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0\end{tabular}}}}%
+    \put(0.02759621,0.20544808){\color[rgb]{0.34901961,0.34901961,0.34901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0,2\end{tabular}}}}%
+    \put(0.02759621,0.24508081){\color[rgb]{0.34901961,0.34901961,0.34901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0,4\end{tabular}}}}%
+    \put(0.02759621,0.28474052){\color[rgb]{0.34901961,0.34901961,0.34901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0,6\end{tabular}}}}%
+    \put(0.02759621,0.32435976){\color[rgb]{0.34901961,0.34901961,0.34901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0,8\end{tabular}}}}%
+    \put(0.0438513,0.36401947){\color[rgb]{0.34901961,0.34901961,0.34901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1\end{tabular}}}}%
+    \put(0.02759621,0.40367918){\color[rgb]{0.34901961,0.34901961,0.34901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1,2\end{tabular}}}}%
+    \put(0.02759621,0.44331191){\color[rgb]{0.34901961,0.34901961,0.34901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1,4\end{tabular}}}}%
+    \put(0.02759621,0.48297162){\color[rgb]{0.34901961,0.34901961,0.34901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1,6\end{tabular}}}}%
+    \put(0.02759621,0.52263133){\color[rgb]{0.34901961,0.34901961,0.34901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1,8\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{img/ErroresFase/ErroresFase.pdf}}%
+    \put(0.45865273,0.03470899){\color[rgb]{0.34901961,0.34901961,0.34901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Fase en grados\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{img/ErroresFase/ErroresFase.pdf}}%
+    \put(0.75506184,0.49898389){\color[rgb]{0.34901961,0.34901961,0.34901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}MSE Input-Output\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{img/ErroresFase/ErroresFase.pdf}}%
+    \put(0.75506184,0.4718696){\color[rgb]{0.34901961,0.34901961,0.34901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Energia Salida AC=2\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{img/ErroresFase/ErroresFase.pdf}}%
+    \put(0.75506184,0.44475531){\color[rgb]{0.34901961,0.34901961,0.34901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Energia Entrada\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{img/ErroresFase/ErroresFase.pdf}}%
+  \end{picture}%
+\endgroup%
