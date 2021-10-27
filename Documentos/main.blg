@@ -1,9 +1,14 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
-[1] Config.pm:307> INFO - Logfile is 'main.blg'
-[60] biber:315> INFO - === mar oct 26, 2021, 20:33:10
+[0] Config.pm:307> INFO - Logfile is 'main.blg'
+[56] biber:315> INFO - === mar oct 26, 2021, 22:49:41
 [104] Biber.pm:371> INFO - Reading 'main.bcf'
-[243] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
-[259] Utils.pm:193> WARN - The file 'main.bcf' does not contain any citations!
-[271] bbl.pm:636> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[271] bbl.pm:739> INFO - Output to main.bbl
-[271] Biber.pm:110> INFO - WARNINGS: 1
+[240] Biber.pm:889> INFO - Found 5 citekeys in bib section 0
+[270] Biber.pm:4093> INFO - Processing section 0
+[294] Biber.pm:4254> INFO - Looking for bibtex format file 'codigofuente/bibliografia.bib' for section 0
+[296] bibtex.pm:1512> INFO - LaTeX decoding ...
+[317] bibtex.pm:1329> INFO - Found BibTeX data source 'codigofuente/bibliografia.bib'
+[419] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[419] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[419] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'es-ES'
+[435] bbl.pm:636> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[439] bbl.pm:739> INFO - Output to main.bbl

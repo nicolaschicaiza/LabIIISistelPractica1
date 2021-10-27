@@ -1996,6 +1996,12 @@
     <bcf:datasource type="file" datatype="bibtex">codigofuente/bibliografia.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
+    <bcf:citekey order="1">coach_double_nodate</bcf:citekey>
+    <bcf:citekey order="2">SuarezVargas2012</bcf:citekey>
+    <bcf:citekey order="3">Zambrano2021</bcf:citekey>
+    <bcf:citekey order="4">TelloPortillo2017</bcf:citekey>
+    <bcf:citekey order="5">Ramirez2020</bcf:citekey>
+    <bcf:citekey order="6">SuarezVargas2012</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

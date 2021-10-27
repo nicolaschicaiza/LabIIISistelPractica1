@@ -16,5 +16,165 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{coach_double_nodate}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=dd56a49650202248f4f688b3a2190d57}{%
+           family={Coach},
+           familyi={C\bibinitperiod},
+           given={Electronics},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{dd56a49650202248f4f688b3a2190d57}
+      \strng{fullhash}{dd56a49650202248f4f688b3a2190d57}
+      \strng{bibnamehash}{dd56a49650202248f4f688b3a2190d57}
+      \strng{authorbibnamehash}{dd56a49650202248f4f688b3a2190d57}
+      \strng{authornamehash}{dd56a49650202248f4f688b3a2190d57}
+      \strng{authorfullhash}{dd56a49650202248f4f688b3a2190d57}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{What is Double Sideband Suppressed Carrier Modulation (DSB-SC)? Definition, generation, applications of DSB-SC - Electronics Coach}
+      \field{title}{{Double {Sideband} {Suppressed} {Carrier} ({DSB}-{SC}) {Modulation}}}
+      \verb{urlraw}
+      \verb https://electronicscoach.com/double-sideband-suppressed-carrier-modulation.html
+      \endverb
+      \verb{url}
+      \verb https://electronicscoach.com/double-sideband-suppressed-carrier-modulation.html
+      \endverb
+    \endentry
+    \entry{SuarezVargas2012}{book}{}
+      \name{author}{1}{}{%
+        {{hash=67dd3806e6d7256aaa2621b0dc72678c}{%
+           family={{Suarez Vargas}},
+           familyi={S\bibinitperiod},
+           given={Francisco\bibnamedelima Cesar},
+           giveni={F\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {es}%
+      }
+      \list{publisher}{1}{%
+        {Jorge Sarmiento Editor - Universitas}%
+      }
+      \strng{namehash}{67dd3806e6d7256aaa2621b0dc72678c}
+      \strng{fullhash}{67dd3806e6d7256aaa2621b0dc72678c}
+      \strng{bibnamehash}{67dd3806e6d7256aaa2621b0dc72678c}
+      \strng{authorbibnamehash}{67dd3806e6d7256aaa2621b0dc72678c}
+      \strng{authornamehash}{67dd3806e6d7256aaa2621b0dc72678c}
+      \strng{authorfullhash}{67dd3806e6d7256aaa2621b0dc72678c}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9781512916270}
+      \field{title}{{Principios de sistemas de comunicaciones}}
+      \field{year}{2012}
+      \field{pages}{170}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://elibro.net/es/lc/unicauca/titulos/77609
+      \endverb
+      \verb{url}
+      \verb https://elibro.net/es/lc/unicauca/titulos/77609
+      \endverb
+    \endentry
+    \entry{Zambrano2021}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b53a53f334a64e72ca5a79b8b893b4e2}{%
+           family={Zambrano},
+           familyi={Z\bibinitperiod},
+           given={Manuela\bibnamedelima Silva},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{b53a53f334a64e72ca5a79b8b893b4e2}
+      \strng{fullhash}{b53a53f334a64e72ca5a79b8b893b4e2}
+      \strng{bibnamehash}{b53a53f334a64e72ca5a79b8b893b4e2}
+      \strng{authorbibnamehash}{b53a53f334a64e72ca5a79b8b893b4e2}
+      \strng{authornamehash}{b53a53f334a64e72ca5a79b8b893b4e2}
+      \strng{authorfullhash}{b53a53f334a64e72ca5a79b8b893b4e2}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Notas de clase}
+      \field{title}{{Cap{í}tulo 5: Modulaciones Anal{ó}gicas}}
+      \field{volume}{1}
+      \field{year}{2021}
+      \field{pages}{17\bibrangedash 24}
+      \range{pages}{8}
+      \verb{file}
+      \verb :home/jnicolaschc/Semestre Actual/Teor{\'{i}}a de Telecomunicaciones I/5. Modulaciones Anal{\'{o}}gicas/Diapositivas modulaciones anal{\'{o}}gicas/cap{\'{i}}tulo V.pdf:pdf
+      \endverb
+    \endentry
+    \entry{TelloPortillo2017}{book}{}
+      \name{author}{1}{}{%
+        {{hash=1b7932e4401c745aad9785fab2583a63}{%
+           family={{Tello Portillo}},
+           familyi={T\bibinitperiod},
+           given={Juan\bibnamedelima Pablo},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {es}%
+      }
+      \list{publisher}{1}{%
+        {Universidad del Norte}%
+      }
+      \strng{namehash}{1b7932e4401c745aad9785fab2583a63}
+      \strng{fullhash}{1b7932e4401c745aad9785fab2583a63}
+      \strng{bibnamehash}{1b7932e4401c745aad9785fab2583a63}
+      \strng{authorbibnamehash}{1b7932e4401c745aad9785fab2583a63}
+      \strng{authornamehash}{1b7932e4401c745aad9785fab2583a63}
+      \strng{authorfullhash}{1b7932e4401c745aad9785fab2583a63}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9789587418040}
+      \field{title}{{Introduccion a las senales y sistemas}}
+      \field{year}{2017}
+      \field{pages}{181}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://elibro.net/es/lc/unicauca/titulos/70025
+      \endverb
+      \verb{url}
+      \verb https://elibro.net/es/lc/unicauca/titulos/70025
+      \endverb
+    \endentry
+    \entry{Ramirez2020}{article}{}
+      \name{author}{1}{}{%
+        {{hash=4c4526e21d0749311bc6b4250f799b36}{%
+           family={Ram{í}rez},
+           familyi={R\bibinitperiod},
+           given={Mauricio},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{4c4526e21d0749311bc6b4250f799b36}
+      \strng{fullhash}{4c4526e21d0749311bc6b4250f799b36}
+      \strng{bibnamehash}{4c4526e21d0749311bc6b4250f799b36}
+      \strng{authorbibnamehash}{4c4526e21d0749311bc6b4250f799b36}
+      \strng{authornamehash}{4c4526e21d0749311bc6b4250f799b36}
+      \strng{authorfullhash}{4c4526e21d0749311bc6b4250f799b36}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Notas de clase}
+      \field{title}{{Modulaci{ó}n Lineal AM y DSB}}
+      \field{volume}{1}
+      \field{year}{2020}
+      \field{pages}{25}
+      \range{pages}{1}
+      \verb{file}
+      \verb :home/jnicolaschc/Semestre Actual/Teor{\'{i}}a de Telecomunicaciones I/Material de estudio/Diapositivas Ing. Mauricio Ramirez/TTL1 Corte 3_2.pdf:pdf
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 

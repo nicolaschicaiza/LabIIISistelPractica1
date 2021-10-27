@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2021.5.30)  26 OCT 2021 20:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2021.5.30)  26 OCT 2021 22:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1399,9 +1399,9 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 \@quotelevel=\count522
 \@quotereset=\count523
 (./main.aux
-LaTeX Info: Redefining \sptext on input line 28.
-LaTeX Info: Redefining \. on input line 28.
-LaTeX Info: Redefining \% on input line 28.
+LaTeX Info: Redefining \sptext on input line 34.
+LaTeX Info: Redefining \. on input line 34.
+LaTeX Info: Redefining \% on input line 34.
 )
 \openout1 = `main.aux'.
 
@@ -1616,18 +1616,42 @@ File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <9> not available
 (Font)              Font shape `T1/pcr/m/sl' tried instead on input line 30.
+ (./codigofuente/introduccion.tex) (./codigofuente/metodologia.tex (./codigofuente/pgf/DB_modulador.tex
 
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Warning: Empty bibliography on input line 38.
+) (./img/mezclado_comp/mezclado_comp.pdf_tex
+<img/mezclado_comp/mezclado_comp.pdf, id=48, page=1, 602.25pt x 602.25pt>
+File: img/mezclado_comp/mezclado_comp.pdf Graphic file (type pdf)
+<use img/mezclado_comp/mezclado_comp.pdf, page 1>
+Package pdftex.def Info: img/mezclado_comp/mezclado_comp.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 142.26378pt x 142.26393pt.
+<img/mezclado_comp/mezclado_comp.pdf, id=49, page=2, 602.25pt x 602.25pt>
+File: img/mezclado_comp/mezclado_comp.pdf Graphic file (type pdf)
+<use img/mezclado_comp/mezclado_comp.pdf, page 2>
+Package pdftex.def Info: img/mezclado_comp/mezclado_comp.pdf , page2 used on input line 73.
+(pdftex.def)             Requested size: 142.26378pt x 142.26393pt.
+) (./img/respuesta_frec/respuesta_frec.pdf_tex
+<img/respuesta_frec/respuesta_frec.pdf, id=51, page=1, 602.25pt x 602.25pt>
+File: img/respuesta_frec/respuesta_frec.pdf Graphic file (type pdf)
+<use img/respuesta_frec/respuesta_frec.pdf, page 1>
+Package pdftex.def Info: img/respuesta_frec/respuesta_frec.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 142.26378pt x 142.26393pt.
+<img/respuesta_frec/respuesta_frec.pdf, id=52, page=2, 602.25pt x 602.25pt>
+File: img/respuesta_frec/respuesta_frec.pdf Graphic file (type pdf)
+<use img/respuesta_frec/respuesta_frec.pdf, page 2>
+Package pdftex.def Info: img/respuesta_frec/respuesta_frec.pdf , page2 used on input line 79.
+(pdftex.def)             Requested size: 142.26378pt x 142.26393pt.
+)
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 39.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 39.
-<img/escudo.jpg, id=9, 309.7974pt x 436.5108pt>
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<img/escudo.jpg, id=54, 309.7974pt x 436.5108pt>
 File: img/escudo.jpg Graphic file (type jpg)
 <use img/escudo.jpg>
-Package pdftex.def Info: img/escudo.jpg  used on input line 39.
+Package pdftex.def Info: img/escudo.jpg  used on input line 56.
 (pdftex.def)             Requested size: 36.8668pt x 51.94609pt.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 39.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 56.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 ) [1
@@ -1659,33 +1683,380 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 <special> ps:tx@Dict begin  gsave STV CP T /ps@rot 0 def grestore  end
 
+ <./img/escudo.jpg> <./img/mezclado_comp/mezclado_comp.pdf> <./img/mezclado_comp/mezclado_comp.pdf
 
- <./img/escudo.jpg>] (./main.aux
-LaTeX Info: Redefining \sptext on input line 28.
-LaTeX Info: Redefining \. on input line 28.
-LaTeX Info: Redefining \% on input line 28.
+pdfTeX warning: pdflatex (file ./img/mezclado_comp/mezclado_comp.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] (./codigofuente/pgf/DB_demodulador.tex) (./img/mezclado_demo/mezclado_demo.pdf_tex
+<img/mezclado_demo/mezclado_demo.pdf, id=80, page=1, 602.25pt x 602.25pt>
+File: img/mezclado_demo/mezclado_demo.pdf Graphic file (type pdf)
+<use img/mezclado_demo/mezclado_demo.pdf, page 1>
+Package pdftex.def Info: img/mezclado_demo/mezclado_demo.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 142.26378pt x 142.26393pt.
+<img/mezclado_demo/mezclado_demo.pdf, id=81, page=2, 602.25pt x 602.25pt>
+File: img/mezclado_demo/mezclado_demo.pdf Graphic file (type pdf)
+<use img/mezclado_demo/mezclado_demo.pdf, page 2>
+Package pdftex.def Info: img/mezclado_demo/mezclado_demo.pdf , page2 used on input line 81.
+(pdftex.def)             Requested size: 142.26378pt x 142.26393pt.
+)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: img/escudo.jpg Graphic file (type jpg)
+<use img/escudo.jpg>
+Package pdftex.def Info: img/escudo.jpg  used on input line 106.
+(pdftex.def)             Requested size: 36.8668pt x 51.94609pt.
+[2 <./img/respuesta_frec/respuesta_frec.pdf> <./img/respuesta_frec/respuesta_frec.pdf
+
+pdfTeX warning: pdflatex (file ./img/respuesta_frec/respuesta_frec.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./img/mezclado_demo/mezclado_demo.pdf
+
+pdfTeX warning: pdflatex (file ./img/mezclado_demo/mezclado_demo.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./img/mezclado_demo/mezclado_demo.pdf
+
+pdfTeX warning: pdflatex (file ./img/mezclado_demo/mezclado_demo.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] (./codigofuente/pgf/PlanPruebas.tex
+\du=\skip101
+)) (./codigofuente/analisisResultado.tex
+Package epstopdf Info: Source file: <img/Comp_Tim/Comp_Tim.eps>
+(epstopdf)                    date: 2021-10-26 20:30:14
+(epstopdf)                    size: 167752 bytes
+(epstopdf)             Output file: <img/Comp_Tim/Comp_Tim-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-10-26 20:30:14
+(epstopdf)                    size: 38507 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/Comp_Tim/Comp_Tim-eps-converted-to.pdf img/Comp_Tim/Comp_Tim.eps>
+(epstopdf)             \includegraphics on input line 9.
+Package epstopdf Info: Output file is already uptodate.
+<img/Comp_Tim/Comp_Tim-eps-converted-to.pdf, id=100, 465.74pt x 351.3125pt>
+File: img/Comp_Tim/Comp_Tim-eps-converted-to.pdf Graphic file (type pdf)
+<use img/Comp_Tim/Comp_Tim-eps-converted-to.pdf>
+Package pdftex.def Info: img/Comp_Tim/Comp_Tim-eps-converted-to.pdf  used on input line 9.
+(pdftex.def)             Requested size: 145.10922pt x 109.45789pt.
+
+Overfull \hbox (14.5112pt too wide) in paragraph at lines 9--10
+[][] 
+ []
+
+Package epstopdf Info: Source file: <img/Comp_EM/Comp_EM.eps>
+(epstopdf)                    date: 2021-10-26 20:30:14
+(epstopdf)                    size: 148919 bytes
+(epstopdf)             Output file: <img/Comp_EM/Comp_EM-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-10-26 20:30:14
+(epstopdf)                    size: 50321 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/Comp_EM/Comp_EM-eps-converted-to.pdf img/Comp_EM/Comp_EM.eps>
+(epstopdf)             \includegraphics on input line 14.
+Package epstopdf Info: Output file is already uptodate.
+<img/Comp_EM/Comp_EM-eps-converted-to.pdf, id=101, 465.74pt x 350.30875pt>
+File: img/Comp_EM/Comp_EM-eps-converted-to.pdf Graphic file (type pdf)
+<use img/Comp_EM/Comp_EM-eps-converted-to.pdf>
+Package pdftex.def Info: img/Comp_EM/Comp_EM-eps-converted-to.pdf  used on input line 14.
+(pdftex.def)             Requested size: 145.10922pt x 109.14514pt.
+
+Overfull \hbox (14.5112pt too wide) in paragraph at lines 14--15
+[][] 
+ []
+
+(./img/DFase0/DFase0.pdf_tex
+<img/DFase0/DFase0.pdf, id=102, page=1, 421.575pt x 316.18124pt>
+File: img/DFase0/DFase0.pdf Graphic file (type pdf)
+<use img/DFase0/DFase0.pdf, page 1>
+Package pdftex.def Info: img/DFase0/DFase0.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 142.26378pt x 106.69933pt.
+)
+Overfull \hbox (12.9822pt too wide) in paragraph at lines 57--36
+[][] 
+ []
+
+(./img/DFase60/DFase60.pdf_tex
+<img/DFase60/DFase60.pdf, id=103, page=1, 421.575pt x 316.18124pt>
+File: img/DFase60/DFase60.pdf Graphic file (type pdf)
+<use img/DFase60/DFase60.pdf, page 1>
+Package pdftex.def Info: img/DFase60/DFase60.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 142.26378pt x 106.69933pt.
+)
+Overfull \hbox (12.9822pt too wide) in paragraph at lines 57--42
+[][] 
+ []
+
+(./img/DFase90/DFase90.pdf_tex
+<img/DFase90/DFase90.pdf, id=104, page=1, 421.575pt x 316.18124pt>
+File: img/DFase90/DFase90.pdf Graphic file (type pdf)
+<use img/DFase90/DFase90.pdf, page 1>
+Package pdftex.def Info: img/DFase90/DFase90.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 142.26378pt x 106.69933pt.
+)
+Overfull \hbox (12.9822pt too wide) in paragraph at lines 57--48
+[][] 
+ []
+
+(./img/DFase180/DFase180.pdf_tex
+<img/DFase180/DFase180.pdf, id=105, page=1, 421.575pt x 316.18124pt>
+File: img/DFase180/DFase180.pdf Graphic file (type pdf)
+<use img/DFase180/DFase180.pdf, page 1>
+Package pdftex.def Info: img/DFase180/DFase180.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 142.26378pt x 106.69933pt.
+)
+Overfull \hbox (12.9822pt too wide) in paragraph at lines 57--54
+[][] 
+ []
+
+(./codigofuente/pgf/erroresFase.tex) (./img/ErroresFase/ErroresFase.pdf_tex
+<img/ErroresFase/ErroresFase.pdf, id=111, page=1, 744.08635pt x 407.83893pt>
+File: img/ErroresFase/ErroresFase.pdf Graphic file (type pdf)
+<use img/ErroresFase/ErroresFase.pdf, page 1>
+Package pdftex.def Info: img/ErroresFase/ErroresFase.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 250.38434pt x 137.2383pt.
+<img/ErroresFase/ErroresFase.pdf, id=112, page=2, 744.08635pt x 407.83893pt>
+File: img/ErroresFase/ErroresFase.pdf Graphic file (type pdf)
+<use img/ErroresFase/ErroresFase.pdf, page 2>
+Package pdftex.def Info: img/ErroresFase/ErroresFase.pdf , page2 used on input line 68.
+(pdftex.def)             Requested size: 250.38434pt x 137.2383pt.
+<img/ErroresFase/ErroresFase.pdf, id=113, page=3, 744.08635pt x 407.83893pt>
+File: img/ErroresFase/ErroresFase.pdf Graphic file (type pdf)
+<use img/ErroresFase/ErroresFase.pdf, page 3>
+Package pdftex.def Info: img/ErroresFase/ErroresFase.pdf , page3 used on input line 70.
+(pdftex.def)             Requested size: 250.38434pt x 137.2383pt.
+<img/ErroresFase/ErroresFase.pdf, id=114, page=4, 744.08635pt x 407.83893pt>
+File: img/ErroresFase/ErroresFase.pdf Graphic file (type pdf)
+<use img/ErroresFase/ErroresFase.pdf, page 4>
+Package pdftex.def Info: img/ErroresFase/ErroresFase.pdf , page4 used on input line 72.
+(pdftex.def)             Requested size: 250.38434pt x 137.2383pt.
+<img/ErroresFase/ErroresFase.pdf, id=115, page=5, 744.08635pt x 407.83893pt>
+File: img/ErroresFase/ErroresFase.pdf Graphic file (type pdf)
+<use img/ErroresFase/ErroresFase.pdf, page 5>
+Package pdftex.def Info: img/ErroresFase/ErroresFase.pdf , page5 used on input line 74.
+(pdftex.def)             Requested size: 250.38434pt x 137.2383pt.
+<img/ErroresFase/ErroresFase.pdf, id=116, page=6, 744.08635pt x 407.83893pt>
+File: img/ErroresFase/ErroresFase.pdf Graphic file (type pdf)
+<use img/ErroresFase/ErroresFase.pdf, page 6>
+Package pdftex.def Info: img/ErroresFase/ErroresFase.pdf , page6 used on input line 76.
+(pdftex.def)             Requested size: 250.38434pt x 137.2383pt.
+)
+File: img/escudo.jpg Graphic file (type jpg)
+<use img/escudo.jpg>
+Package pdftex.def Info: img/escudo.jpg  used on input line 74.
+(pdftex.def)             Requested size: 36.8668pt x 51.94609pt.
+ [3 <./img/Comp_Tim/Comp_Tim-eps-converted-to.pdf> <./img/Comp_EM/Comp_EM-eps-converted-to.pdf> <./img/DFase0/DFase0.pdf> <./img/DFase60/DFase60.pdf
+
+pdfTeX warning: pdflatex (file ./img/DFase60/DFase60.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./img/DFase90/DFase90.pdf
+
+pdfTeX warning: pdflatex (file ./img/DFase90/DFase90.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./img/DFase180/DFase180.pdf
+
+pdfTeX warning: pdflatex (file ./img/DFase180/DFase180.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] (./codigofuente/pgf/erroresFrecuencia.tex
+Underfull \hbox (badness 3849) in paragraph at lines 77--19
+[] []\T1/ptm/m/n/10.95 Para es-te es-ce-na-rio se
+ []
+
+) (./img/DFreq0/DFreq0.pdf_tex
+<img/DFreq0/DFreq0.pdf, id=151, page=1, 421.575pt x 316.18124pt>
+File: img/DFreq0/DFreq0.pdf Graphic file (type pdf)
+<use img/DFreq0/DFreq0.pdf, page 1>
+Package pdftex.def Info: img/DFreq0/DFreq0.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 142.26378pt x 106.69933pt.
+)
+Overfull \hbox (12.9822pt too wide) in paragraph at lines 57--86
+[][] 
+ []
+
+(./img/DFreq001/DFreq001.pdf_tex
+<img/DFreq001/DFreq001.pdf, id=152, page=1, 421.575pt x 316.18124pt>
+File: img/DFreq001/DFreq001.pdf Graphic file (type pdf)
+<use img/DFreq001/DFreq001.pdf, page 1>
+Package pdftex.def Info: img/DFreq001/DFreq001.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 142.26378pt x 106.69933pt.
+)
+Overfull \hbox (12.9822pt too wide) in paragraph at lines 57--92
+[][] 
+ []
+
+(./img/DFreq01/DFreq01.pdf_tex
+<img/DFreq01/DFreq01.pdf, id=153, page=1, 421.575pt x 316.18124pt>
+File: img/DFreq01/DFreq01.pdf Graphic file (type pdf)
+<use img/DFreq01/DFreq01.pdf, page 1>
+Package pdftex.def Info: img/DFreq01/DFreq01.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 142.26378pt x 106.69933pt.
+)
+Overfull \hbox (12.9822pt too wide) in paragraph at lines 57--98
+[][] 
+ []
+
+(./img/DFreq1/DFreq1.pdf_tex
+<img/DFreq1/DFreq1.pdf, id=154, page=1, 421.575pt x 316.18124pt>
+File: img/DFreq1/DFreq1.pdf Graphic file (type pdf)
+<use img/DFreq1/DFreq1.pdf, page 1>
+Package pdftex.def Info: img/DFreq1/DFreq1.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 142.26378pt x 106.69933pt.
+)
+Overfull \hbox (12.9822pt too wide) in paragraph at lines 57--104
+[][] 
+ []
+
+(./img/ErroresFrecuencia/ErroresFrecuencia.pdf_tex
+<img/ErroresFrecuencia/ErroresFrecuencia.pdf, id=155, page=1, 743.98865pt x 460.79507pt>
+File: img/ErroresFrecuencia/ErroresFrecuencia.pdf Graphic file (type pdf)
+<use img/ErroresFrecuencia/ErroresFrecuencia.pdf, page 1>
+Package pdftex.def Info: img/ErroresFrecuencia/ErroresFrecuencia.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 250.38434pt x 155.07217pt.
+<img/ErroresFrecuencia/ErroresFrecuencia.pdf, id=156, page=2, 743.98865pt x 460.79507pt>
+File: img/ErroresFrecuencia/ErroresFrecuencia.pdf Graphic file (type pdf)
+<use img/ErroresFrecuencia/ErroresFrecuencia.pdf, page 2>
+Package pdftex.def Info: img/ErroresFrecuencia/ErroresFrecuencia.pdf , page2 used on input line 70.
+(pdftex.def)             Requested size: 250.38434pt x 155.07217pt.
+<img/ErroresFrecuencia/ErroresFrecuencia.pdf, id=157, page=3, 743.98865pt x 460.79507pt>
+File: img/ErroresFrecuencia/ErroresFrecuencia.pdf Graphic file (type pdf)
+<use img/ErroresFrecuencia/ErroresFrecuencia.pdf, page 3>
+Package pdftex.def Info: img/ErroresFrecuencia/ErroresFrecuencia.pdf , page3 used on input line 74.
+(pdftex.def)             Requested size: 250.38434pt x 155.07217pt.
+<img/ErroresFrecuencia/ErroresFrecuencia.pdf, id=158, page=4, 743.98865pt x 460.79507pt>
+File: img/ErroresFrecuencia/ErroresFrecuencia.pdf Graphic file (type pdf)
+<use img/ErroresFrecuencia/ErroresFrecuencia.pdf, page 4>
+Package pdftex.def Info: img/ErroresFrecuencia/ErroresFrecuencia.pdf , page4 used on input line 76.
+(pdftex.def)             Requested size: 250.38434pt x 155.07217pt.
+<img/ErroresFrecuencia/ErroresFrecuencia.pdf, id=159, page=5, 743.98865pt x 460.79507pt>
+File: img/ErroresFrecuencia/ErroresFrecuencia.pdf Graphic file (type pdf)
+<use img/ErroresFrecuencia/ErroresFrecuencia.pdf, page 5>
+Package pdftex.def Info: img/ErroresFrecuencia/ErroresFrecuencia.pdf , page5 used on input line 78.
+(pdftex.def)             Requested size: 250.38434pt x 155.07217pt.
+)
+File: img/escudo.jpg Graphic file (type jpg)
+<use img/escudo.jpg>
+Package pdftex.def Info: img/escudo.jpg  used on input line 125.
+(pdftex.def)             Requested size: 36.8668pt x 51.94609pt.
+ [4 <./img/ErroresFase/ErroresFase.pdf> <./img/ErroresFase/ErroresFase.pdf
+
+pdfTeX warning: pdflatex (file ./img/ErroresFase/ErroresFase.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./img/ErroresFase/ErroresFase.pdf
+
+pdfTeX warning: pdflatex (file ./img/ErroresFase/ErroresFase.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./img/ErroresFase/ErroresFase.pdf
+
+pdfTeX warning: pdflatex (file ./img/ErroresFase/ErroresFase.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./img/ErroresFase/ErroresFase.pdf
+
+pdfTeX warning: pdflatex (file ./img/ErroresFase/ErroresFase.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./img/ErroresFase/ErroresFase.pdf
+
+pdfTeX warning: pdflatex (file ./img/ErroresFase/ErroresFase.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./img/DFreq0/DFreq0.pdf
+
+pdfTeX warning: pdflatex (file ./img/DFreq0/DFreq0.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./img/DFreq001/DFreq001.pdf
+
+pdfTeX warning: pdflatex (file ./img/DFreq001/DFreq001.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./img/DFreq01/DFreq01.pdf
+
+pdfTeX warning: pdflatex (file ./img/DFreq01/DFreq01.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./img/DFreq1/DFreq1.pdf
+
+pdfTeX warning: pdflatex (file ./img/DFreq1/DFreq1.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./img/ErroresFrecuencia/ErroresFrecuencia.pdf
+
+pdfTeX warning: pdflatex (file ./img/ErroresFrecuencia/ErroresFrecuencia.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./img/ErroresFrecuencia/ErroresFrecuencia.pdf
+
+pdfTeX warning: pdflatex (file ./img/ErroresFrecuencia/ErroresFrecuencia.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./img/ErroresFrecuencia/ErroresFrecuencia.pdf
+
+pdfTeX warning: pdflatex (file ./img/ErroresFrecuencia/ErroresFrecuencia.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./img/ErroresFrecuencia/ErroresFrecuencia.pdf
+
+pdfTeX warning: pdflatex (file ./img/ErroresFrecuencia/ErroresFrecuencia.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./img/ErroresFrecuencia/ErroresFrecuencia.pdf
+
+pdfTeX warning: pdflatex (file ./img/ErroresFrecuencia/ErroresFrecuencia.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] (./img/EMF90_freq0/EMF90_freq0.pdf_tex
+<img/EMF90_freq0/EMF90_freq0.pdf, id=257, page=1, 513.41812pt x 375.65344pt>
+File: img/EMF90_freq0/EMF90_freq0.pdf Graphic file (type pdf)
+<use img/EMF90_freq0/EMF90_freq0.pdf, page 1>
+Package pdftex.def Info: img/EMF90_freq0/EMF90_freq0.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 142.26378pt x 104.08742pt.
+)
+Overfull \hbox (12.9822pt too wide) in paragraph at lines 57--133
+[][] 
+ []
+
+(./img/EMF90_freq001/EMF90_freq001.pdf_tex
+<img/EMF90_freq001/EMF90_freq001.pdf, id=258, page=1, 517.935pt x 375.65344pt>
+File: img/EMF90_freq001/EMF90_freq001.pdf Graphic file (type pdf)
+<use img/EMF90_freq001/EMF90_freq001.pdf, page 1>
+Package pdftex.def Info: img/EMF90_freq001/EMF90_freq001.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 142.26378pt x 103.18176pt.
+)
+Overfull \hbox (12.9822pt too wide) in paragraph at lines 57--139
+[][] 
+ []
+
+(./img/EMF90_freq01/EMF90_freq01.pdf_tex
+<img/EMF90_freq01/EMF90_freq01.pdf, id=259, page=1, 515.67656pt x 378.66469pt>
+File: img/EMF90_freq01/EMF90_freq01.pdf Graphic file (type pdf)
+<use img/EMF90_freq01/EMF90_freq01.pdf, page 1>
+Package pdftex.def Info: img/EMF90_freq01/EMF90_freq01.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 142.26378pt x 104.46533pt.
+)
+Overfull \hbox (12.9822pt too wide) in paragraph at lines 57--145
+[][] 
+ []
+
+(./img/EMF90_freq1/EMF90_freq1.pdf_tex
+<img/EMF90_freq1/EMF90_freq1.pdf, id=260, page=1, 517.935pt x 377.15906pt>
+File: img/EMF90_freq1/EMF90_freq1.pdf Graphic file (type pdf)
+<use img/EMF90_freq1/EMF90_freq1.pdf, page 1>
+Package pdftex.def Info: img/EMF90_freq1/EMF90_freq1.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 142.26378pt x 103.59532pt.
+)
+Overfull \hbox (12.9822pt too wide) in paragraph at lines 57--151
+[][] 
+ []
+
+) (./codigofuente/conclusiones.tex) (./codigofuente/apendice.tex)
+Underfull \hbox (badness 3668) in paragraph at lines 38--38
+\T1/ptm/m/it/9 du-la-tion\T1/ptm/m/n/9 . di-rec-ción: [][]$\T1/pcr/m/n/9 https : / / electronicscoach .
+ []
+
+File: img/escudo.jpg Graphic file (type jpg)
+<use img/escudo.jpg>
+Package pdftex.def Info: img/escudo.jpg  used on input line 39.
+(pdftex.def)             Requested size: 36.8668pt x 51.94609pt.
+[5 <./img/EMF90_freq0/EMF90_freq0.pdf> <./img/EMF90_freq001/EMF90_freq001.pdf
+
+pdfTeX warning: pdflatex (file ./img/EMF90_freq001/EMF90_freq001.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./img/EMF90_freq01/EMF90_freq01.pdf
+
+pdfTeX warning: pdflatex (file ./img/EMF90_freq01/EMF90_freq01.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./img/EMF90_freq1/EMF90_freq1.pdf
+
+pdfTeX warning: pdflatex (file ./img/EMF90_freq1/EMF90_freq1.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 39.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 39.
+ (./main.aux
+LaTeX Info: Redefining \sptext on input line 34.
+LaTeX Info: Redefining \. on input line 34.
+LaTeX Info: Redefining \% on input line 34.
 )
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 39.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 39.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+(rerunfilecheck)             Checksum: F8AC8251F382164F57EEB61334F1DA16;794.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 68502 strings out of 492615
- 1562496 string characters out of 6131390
- 2317621 words of memory out of 5000000
- 71401 multiletter control sequences out of 15000+600000
- 569795 words of font info for 97 fonts, out of 8000000 for 9000
+ 69249 strings out of 492615
+ 1581273 string characters out of 6131390
+ 2339621 words of memory out of 5000000
+ 72001 multiletter control sequences out of 15000+600000
+ 582293 words of font info for 106 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,16n,136p,3271b,1799s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on main.pdf (1 page, 740862 bytes).
+ 80i,17n,136p,3271b,1803s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (5 pages, 1713126 bytes).
 PDF statistics:
- 36 PDF objects out of 1000 (max. 8388607)
- 27 compressed objects within 1 object stream
- 2 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 357 PDF objects out of 1000 (max. 8388607)
+ 264 compressed objects within 3 object streams
+ 37 named destinations out of 1000 (max. 500000)
+ 245 words of extra memory for PDF output out of 10000 (max. 10000000)
 
